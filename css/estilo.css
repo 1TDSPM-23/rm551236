@@ -1,3 +1,7 @@
+/* ================================= */
+@import url('./cabecalho.css');
+/* ================================= */
+
 *{
     margin: 0;
     padding: 0;
@@ -8,62 +12,21 @@ html{
     font-size: 62.5%;
 }
 
-body{
-    font-size: 10px;
-}
-
-.cabecalho{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: #000000;
-}
-
-.cabecalho img{
-    width: 30%;
-    max-width: 30%;
-    display: block;
-}
-
-.cabecalho nav{
-    display: flex;
-    justify-content: space-around;
-    width: 60%;
-    height: 100%;
-}
-
-.cabecalho a{
-    text-decoration: none;
-    color: blue;
-    text-align: center;
-    font-size: 4em;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 700;
-    padding: 20% 0;
-}
-
-.cabecalho a:hover{
-    background-color: #fff;
-    color: #000000;
-}
-
+ 
 .tit-sec{
     text-align: center;
-    font-size: 5em;
+    font-size: 5rem;
     margin: 5% 0;
 }
 
 /* vw = view width
 vh = view height  */
 
-
 .conteudo{
     display: flex;
     flex-wrap: wrap;
     max-width: 50vw;
     margin: 0 auto;
-    
 }
 
 .conteudo img{
@@ -75,7 +38,7 @@ vh = view height  */
 Utilizando as propriedades especificas
 GROW/BASIS/SHRINK */
 
-.conteudo >div{
+.conteudo > div{
     /* flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 300px; */
