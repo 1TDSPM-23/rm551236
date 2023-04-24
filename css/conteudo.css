@@ -19,3 +19,11 @@ GROW/BASIS/SHRINK */
     flex-basis: 300px; */
     flex: 1 1 300px;
 }
+
+.section table{
+    border-collapse: collapse;
+}
+
+.section table th, td{
+    border: 2px solid #000;
+}
