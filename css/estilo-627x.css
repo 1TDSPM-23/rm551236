@@ -2,4 +2,7 @@
     .cabecalho nav{
         width: 30%;
     }
+    .cabecalho a {
+        font-size: 2em;
+    }
 }
