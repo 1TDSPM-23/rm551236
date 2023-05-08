@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENTRAR</title>
+
+    <script src="./js/script.js"></script>
+
+</head>
+<body>
+    
+    <h1>FORMULÁRIO DE ACESSO</h1>
+        <div>
+        <form action="index.html" method="post">
+            <fieldset>
+                <legend>ENTRAR</legend>
+                <div>
+                    <label for="idNm">Usuário</label>
+                    <input type="text" name="txtNm" id="idNm" placeholder="Usuário">
+                </div>
+                <div>
+                    <label for="idPass">Senha</label>
+                    <input type="password" name="txtPass" id="idPass" placeholder="Senha">
+                </div>
+                <div>
+                    <label for="id-c-custo">Centro de Custo</label>
+                    <select name="c-custo" id="id-c-custo">
+                        <option value="0">Selecione uma opção</option>
+                        <option value="sp">São Paulo</option>
+                        <option value="rj">Rio de Janeiro</option>
+                        <option value="sc">Sta Catarina</option>
+                    </select>
+                </div>
+                <div>
+                    <button type="submit">Entrar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+</html>
