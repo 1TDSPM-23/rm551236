@@ -15,18 +15,29 @@
     <div class="calc">
         <form action="" method="get" onsubmit="return false">
             <div class="visor-calc">
-                <input type="text" name="visor" id="idVisor" placeholder="0" >
+                <input type="text" name="visor" id="idVisor" placeholder="0">
             </div>
             <div class="btn-calc">
-                <button value="1" id="btn-1">Adição</button>
-                <button value="2" id="btn-2">Adição</button>
-                <button value="3" id="btn-3">Adição</button>
+                <button value="0" id="btn-0" onclick="insereNumeroNoVisor(this,idVisor)">0</button>
+                <button value="1" id="btn-1" onclick="insereNumeroNoVisor(this,idVisor)">1</button>
+                <button value="2" id="btn-2" onclick="insereNumeroNoVisor(this,idVisor)">2</button>
+                <button value="3" id="btn-3" onclick="insereNumeroNoVisor(this,idVisor)">3</button>
+                <button value="4" id="btn-4" onclick="insereNumeroNoVisor(this,idVisor)">4</button>
+                <button value="5" id="btn-5" onclick="insereNumeroNoVisor(this,idVisor)">5</button>
+                <button value="6" id="btn-6" onclick="insereNumeroNoVisor(this,idVisor)">6</button>
+                <button value="7" id="btn-7" onclick="insereNumeroNoVisor(this,idVisor)">7</button>
+                <button value="8" id="btn-8" onclick="insereNumeroNoVisor(this,idVisor)">8</button>
+                <button value="9" id="btn-9" onclick="insereNumeroNoVisor(this,idVisor)">9</button>
             </div>
             <div class="oper-calc">
-                <button value="+" id="BtnSoma">+</button>
+                <button value="-" id="btnSubtr" onclick="insereNumeroNoVisor(this,idVisor)">-</button>
+                <button value="+" id="btnSoma" onclick="insereNumeroNoVisor(this,idVisor)">+</button>
+                <button value="*" id="btnMulti" onclick="insereNumeroNoVisor(this,idVisor)">*</button>
+                <button value="/" id="btnDiv" onclick="insereNumeroNoVisor(this,idVisor)">/</button>
+                <button id="AllClean" onclick="limparvisor(this,idVisor)">AC</button>
             </div>
             <div class="result-calc">
-                <button value="=" id="BtnResult">=</button>
+                <button value="=" id="btnResultado" onclick="resultadoDasOperacoes(idVisor)">=</button>
             </div>
         </form>
     </div>
