@@ -15,18 +15,32 @@
     <div class="calc">
         <form action="" method="get" onsubmit="return false">
             <div class="visor-calc">
-                <input type="text" name="visor" id="idVisor" placeholder="0" >
+                <input type="text" name="visor" id="idVisor" placeholder="0">
             </div>
             <div class="btn-calc">
-                <button value="1" id="btn-1">Adição</button>
-                <button value="2" id="btn-2">Adição</button>
-                <button value="3" id="btn-3">Adição</button>
+                <button value="1" id="btn-1" class="btn-number" onclick="InsereNmrVisor(this,idVisor)">1</button>
+                <button value="2" id="btn-2" class="btn-number" onclick="InsereNmrVisor(this,idVisor)">2</button>
+                <button value="3" id="btn-3" class="btn-number" onclick="InsereNmrVisor(this,idVisor)">3</button>
+                <button value="4" id="btn-4" class="btn-number" onclick="InsereNmrVisor(this,idVisor)">4</button>
+                <button value="5" id="btn-5" class="btn-number" onclick="InsereNmrVisor(this,idVisor)">5</button>
+                <button value="6" id="btn-6" class="btn-number" onclick="InsereNmrVisor(this,idVisor)">6</button>
+                <button value="7" id="btn-7" class="btn-number" onclick="InsereNmrVisor(this,idVisor)">7</button>
+                <button value="8" id="btn-8" class="btn-number" onclick="InsereNmrVisor(this,idVisor)">8</button>
+                <button value="9" id="btn-9" class="btn-number" onclick="InsereNmrVisor(this,idVisor)">9</button>
+                <button value="0" id="btn-0" class="btn-number" onclick="InsereNmrVisor(this,idVisor)">0</button>
+
             </div>
             <div class="oper-calc">
-                <button value="+" id="BtnSoma">+</button>
+                <button value="+" id="btnSoma" onclick="InsereNmrVisor(this,idVisor)">+</button>
+                <button value="-" id="btnSubtracao" onclick="InsereNmrVisor(this,idVisor)">-</button>
+                <button value="*" id="btnMultiplicacao" onclick="InsereNmrVisor(this,idVisor)">*</button>
+                <button value="/" id="btnDivisao" onclick="InsereNmrVisor(this,idVisor)">/</button>
+            </div>
+            <div class="remove">
+                <button id="btnApagar" onclick="ApagarVisor(idVisor)">C</button>
             </div>
             <div class="result-calc">
-                <button value="=" id="BtnResult">=</button>
+                <button value="=" id="btnResultado">=</button>
             </div>
         </form>
     </div>
