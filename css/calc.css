@@ -1,0 +1,54 @@
+.calc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .visor-calc {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  #idVisor {
+    width: 200px;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  .btn-calc {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+  }
+  
+  .btn-row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn-calc button {
+    flex-grow: 1;
+    margin: 2% 0;
+    font-size: 18px;
+  }
+  
+  .oper-calc,
+  .result-calc,
+  .remove {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .oper-calc button,
+  .result-calc button {
+    flex-grow: 1;
+    margin: 2% 0;
+    font-size: 18px;
+  }
+  
+  #btn-0 {
+    grid-column: 2 / 3;
+  } 

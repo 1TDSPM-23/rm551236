@@ -1,0 +1,23 @@
+/* ================================= */
+@import url("./cabecalho.css");
+@import url("./conteudo.css");
+@import url("./estilo-627x.css");
+@import url("./rodape.css   ");
+/* ================================= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.tit-sec{
+    text-align: center;
+    font-size: 5rem;
+    margin: 5% 0;
+}
+
+

@@ -1,0 +1,11 @@
+/* BREAKPOINT 1 = (width=627px) */
+@media (max-width:627px) {
+    .cabecalho nav {
+        width: 30%;
+        flex-wrap: nowrap;
+    }
+
+    .cabecalho a {
+        font-size: 2em;
+    }
+}
